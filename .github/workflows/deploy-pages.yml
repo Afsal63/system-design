@@ -29,7 +29,7 @@ jobs:
       - name: Upload site
         uses: actions/upload-pages-artifact@v3
         with:
-          path: system-design-atlas
+          path: .
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4

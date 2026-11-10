@@ -8,7 +8,7 @@ Open `index.html` in a browser, or serve the folder (for example with VS Code Li
 
 ## Host on GitHub Pages
 
-In the repository settings, open **Pages** and set the source to **GitHub Actions**. The workflow at `.github/workflows/deploy-pages.yml` publishes this folder whenever a commit is pushed to `main`; the live URL will appear in the workflow run and the Pages settings.
+In the repository settings, open **Pages** and set the source to **GitHub Actions**. The workflow at `.github/workflows/deploy-pages.yml` publishes the repository root whenever a commit is pushed to `main`; the live URL will appear in the workflow run and the Pages settings.
 
 ## Content
 
